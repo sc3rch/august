@@ -12,7 +12,7 @@
 def fahrenheit_to_celsius(fahrenheit):
     """ given a fahrenheit value, returns conversion to celsius """
 
-    celsius = (fahrenheit - 32) / 9/5
+    celsius = (fahrenheit - 32) * 5/9
     return celsius
 
 fahrenheit = 82
